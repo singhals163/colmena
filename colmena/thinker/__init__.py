@@ -14,6 +14,7 @@ import logging
 from colmena.exceptions import TimeoutException
 from colmena.queue.base import ColmenaQueues
 from colmena.thinker.resources import ResourceCounter, ReallocatorThread
+from colmena.thinker.dynamic_thinker import DynamicAIThinker
 
 logger = logging.getLogger(__name__)
 
